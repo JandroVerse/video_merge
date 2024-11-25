@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, send_file
 from moviepy.video.io.VideoFileClip import VideoFileClip
-from moviepy import concatenate_videoclips
+from moviepy.editor import concatenate_videoclips
+#from moviepy import concatenate_videoclips
 import os
 import random
 import uuid
